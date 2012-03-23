@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FC20B57151CFB5300B2D949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC20B56151CFB5300B2D949 /* Cocoa.framework */; };
+		9FC20B61151CFB5300B2D949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B5F151CFB5300B2D949 /* InfoPlist.strings */; };
+		9FC20B63151CFB5300B2D949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC20B62151CFB5300B2D949 /* main.m */; };
+		9FC20B67151CFB5300B2D949 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B65151CFB5300B2D949 /* Credits.rtf */; };
+		9FC20B6A151CFB5300B2D949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC20B69151CFB5300B2D949 /* AppDelegate.m */; };
+		9FC20B6D151CFB5300B2D949 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B6B151CFB5300B2D949 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FC20B52151CFB5300B2D949 /* AmaZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC20B56151CFB5300B2D949 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9FC20B59151CFB5300B2D949 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9FC20B5A151CFB5300B2D949 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9FC20B5B151CFB5300B2D949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FC20B5E151CFB5300B2D949 /* AmaZone-Info.plist */ = {isa = PBXFileReference; path = "AmaZone-Info.plist"; sourceTree = "<group>"; };
+		9FC20B60151CFB5300B2D949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FC20B62151CFB5300B2D949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FC20B64151CFB5300B2D949 /* AmaZone-Prefix.pch */ = {isa = PBXFileReference; path = "AmaZone-Prefix.pch"; sourceTree = "<group>"; };
+		9FC20B66151CFB5300B2D949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9FC20B68151CFB5300B2D949 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FC20B69151CFB5300B2D949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FC20B6C151CFB5300B2D949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC20B4F151CFB5300B2D949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC20B57151CFB5300B2D949 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC20B47151CFB5300B2D949 = {
+			isa = PBXGroup;
+			children = (
+				9FC20B5C151CFB5300B2D949 /* AmaZone */,
+				9FC20B55151CFB5300B2D949 /* Frameworks */,
+				9FC20B53151CFB5300B2D949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC20B53151CFB5300B2D949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC20B52151CFB5300B2D949 /* AmaZone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC20B55151CFB5300B2D949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC20B56151CFB5300B2D949 /* Cocoa.framework */,
+				9FC20B58151CFB5300B2D949 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FC20B58151CFB5300B2D949 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC20B59151CFB5300B2D949 /* AppKit.framework */,
+				9FC20B5A151CFB5300B2D949 /* CoreData.framework */,
+				9FC20B5B151CFB5300B2D949 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9FC20B5C151CFB5300B2D949 /* AmaZone */ = {
+			isa = PBXGroup;
+			children = (
+				9FC20B68151CFB5300B2D949 /* AppDelegate.h */,
+				9FC20B69151CFB5300B2D949 /* AppDelegate.m */,
+				9FC20B6B151CFB5300B2D949 /* MainMenu.xib */,
+				9FC20B5D151CFB5300B2D949 /* Supporting Files */,
+			);
+			path = AmaZone;
+			sourceTree = "<group>";
+		};
+		9FC20B5D151CFB5300B2D949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FC20B5E151CFB5300B2D949 /* AmaZone-Info.plist */,
+				9FC20B5F151CFB5300B2D949 /* InfoPlist.strings */,
+				9FC20B62151CFB5300B2D949 /* main.m */,
+				9FC20B64151CFB5300B2D949 /* AmaZone-Prefix.pch */,
+				9FC20B65151CFB5300B2D949 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC20B51151CFB5300B2D949 /* AmaZone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC20B70151CFB5300B2D949 /* Build configuration list for PBXNativeTarget "AmaZone" */;
+			buildPhases = (
+				9FC20B4E151CFB5300B2D949 /* Sources */,
+				9FC20B4F151CFB5300B2D949 /* Frameworks */,
+				9FC20B50151CFB5300B2D949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmaZone;
+			productName = AmaZone;
+			productReference = 9FC20B52151CFB5300B2D949 /* AmaZone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC20B49151CFB5300B2D949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9FC20B4C151CFB5300B2D949 /* Build configuration list for PBXProject "AmaZone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FC20B47151CFB5300B2D949;
+			productRefGroup = 9FC20B53151CFB5300B2D949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC20B51151CFB5300B2D949 /* AmaZone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC20B50151CFB5300B2D949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC20B61151CFB5300B2D949 /* InfoPlist.strings in Resources */,
+				9FC20B67151CFB5300B2D949 /* Credits.rtf in Resources */,
+				9FC20B6D151CFB5300B2D949 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC20B4E151CFB5300B2D949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC20B63151CFB5300B2D949 /* main.m in Sources */,
+				9FC20B6A151CFB5300B2D949 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FC20B5F151CFB5300B2D949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC20B60151CFB5300B2D949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FC20B65151CFB5300B2D949 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC20B66151CFB5300B2D949 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9FC20B6B151CFB5300B2D949 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC20B6C151CFB5300B2D949 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC20B6E151CFB5300B2D949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9FC20B6F151CFB5300B2D949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9FC20B71151CFB5300B2D949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmaZone/AmaZone-Prefix.pch";
+				INFOPLIST_FILE = "AmaZone/AmaZone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FC20B72151CFB5300B2D949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmaZone/AmaZone-Prefix.pch";
+				INFOPLIST_FILE = "AmaZone/AmaZone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC20B4C151CFB5300B2D949 /* Build configuration list for PBXProject "AmaZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC20B6E151CFB5300B2D949 /* Debug */,
+				9FC20B6F151CFB5300B2D949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC20B70151CFB5300B2D949 /* Build configuration list for PBXNativeTarget "AmaZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC20B71151CFB5300B2D949 /* Debug */,
+				9FC20B72151CFB5300B2D949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC20B49151CFB5300B2D949 /* Project object */;
+}
