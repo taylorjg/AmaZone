@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F64C465152B99F8003A4562 /* AWSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64C464152B99F8003A4562 /* AWSHelper.m */; };
+		9F88CD61152BAAE600263EB3 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F88CD60152BAAE600263EB3 /* readme.md */; };
 		9FC20B57151CFB5300B2D949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC20B56151CFB5300B2D949 /* Cocoa.framework */; };
 		9FC20B61151CFB5300B2D949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B5F151CFB5300B2D949 /* InfoPlist.strings */; };
 		9FC20B63151CFB5300B2D949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC20B62151CFB5300B2D949 /* main.m */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		9F64C463152B99F8003A4562 /* AWSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSHelper.h; sourceTree = "<group>"; };
 		9F64C464152B99F8003A4562 /* AWSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSHelper.m; sourceTree = "<group>"; };
+		9F88CD60152BAAE600263EB3 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		9FC20B52151CFB5300B2D949 /* AmaZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC20B56151CFB5300B2D949 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9FC20B59151CFB5300B2D949 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -124,6 +126,7 @@
 				9FC20B62151CFB5300B2D949 /* main.m */,
 				9FC20B64151CFB5300B2D949 /* AmaZone-Prefix.pch */,
 				9FC20B65151CFB5300B2D949 /* Credits.rtf */,
+				9F88CD60152BAAE600263EB3 /* readme.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				9FC20B61151CFB5300B2D949 /* InfoPlist.strings in Resources */,
 				9FC20B67151CFB5300B2D949 /* Credits.rtf in Resources */,
 				9FC20B6D151CFB5300B2D949 /* MainMenu.xib in Resources */,
+				9F88CD61152BAAE600263EB3 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
