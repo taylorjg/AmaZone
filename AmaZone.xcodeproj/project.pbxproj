@@ -7,28 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F64C465152B99F8003A4562 /* AWSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F64C464152B99F8003A4562 /* AWSHelper.m */; };
 		9FC20B57151CFB5300B2D949 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC20B56151CFB5300B2D949 /* Cocoa.framework */; };
 		9FC20B61151CFB5300B2D949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B5F151CFB5300B2D949 /* InfoPlist.strings */; };
 		9FC20B63151CFB5300B2D949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC20B62151CFB5300B2D949 /* main.m */; };
 		9FC20B67151CFB5300B2D949 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B65151CFB5300B2D949 /* Credits.rtf */; };
 		9FC20B6A151CFB5300B2D949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC20B69151CFB5300B2D949 /* AppDelegate.m */; };
 		9FC20B6D151CFB5300B2D949 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC20B6B151CFB5300B2D949 /* MainMenu.xib */; };
+		9FC20B75151CFE9C00B2D949 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC20B74151CFE9C00B2D949 /* AppController.m */; };
+		9FD0086F152A46A70072754C /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD0086E152A46A70072754C /* libcrypto.dylib */; };
+		9FD00874152A48D70072754C /* NSData+MyExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD00873152A48D70072754C /* NSData+MyExtensions.m */; };
+		9FD00877152A4C1B0072754C /* NSString+MyExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD00876152A4C1B0072754C /* NSString+MyExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F64C463152B99F8003A4562 /* AWSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSHelper.h; sourceTree = "<group>"; };
+		9F64C464152B99F8003A4562 /* AWSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSHelper.m; sourceTree = "<group>"; };
 		9FC20B52151CFB5300B2D949 /* AmaZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC20B56151CFB5300B2D949 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9FC20B59151CFB5300B2D949 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9FC20B5A151CFB5300B2D949 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9FC20B5B151CFB5300B2D949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9FC20B5E151CFB5300B2D949 /* AmaZone-Info.plist */ = {isa = PBXFileReference; path = "AmaZone-Info.plist"; sourceTree = "<group>"; };
+		9FC20B5E151CFB5300B2D949 /* AmaZone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmaZone-Info.plist"; sourceTree = "<group>"; };
 		9FC20B60151CFB5300B2D949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FC20B62151CFB5300B2D949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9FC20B64151CFB5300B2D949 /* AmaZone-Prefix.pch */ = {isa = PBXFileReference; path = "AmaZone-Prefix.pch"; sourceTree = "<group>"; };
+		9FC20B64151CFB5300B2D949 /* AmaZone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmaZone-Prefix.pch"; sourceTree = "<group>"; };
 		9FC20B66151CFB5300B2D949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		9FC20B68151CFB5300B2D949 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FC20B68151CFB5300B2D949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FC20B69151CFB5300B2D949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9FC20B6C151CFB5300B2D949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9FC20B73151CFE9C00B2D949 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		9FC20B74151CFE9C00B2D949 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		9FD0086E152A46A70072754C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		9FD00871152A47570072754C /* AWSKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSKeys.h; sourceTree = "<group>"; };
+		9FD00872152A48D70072754C /* NSData+MyExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MyExtensions.h"; sourceTree = "<group>"; };
+		9FD00873152A48D70072754C /* NSData+MyExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MyExtensions.m"; sourceTree = "<group>"; };
+		9FD00875152A4C1B0072754C /* NSString+MyExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MyExtensions.h"; sourceTree = "<group>"; };
+		9FD00876152A4C1B0072754C /* NSString+MyExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD0086F152A46A70072754C /* libcrypto.dylib in Frameworks */,
 				9FC20B57151CFB5300B2D949 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +88,7 @@
 		9FC20B58151CFB5300B2D949 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FD0086E152A46A70072754C /* libcrypto.dylib */,
 				9FC20B59151CFB5300B2D949 /* AppKit.framework */,
 				9FC20B5A151CFB5300B2D949 /* CoreData.framework */,
 				9FC20B5B151CFB5300B2D949 /* Foundation.framework */,
@@ -82,6 +99,15 @@
 		9FC20B5C151CFB5300B2D949 /* AmaZone */ = {
 			isa = PBXGroup;
 			children = (
+				9F64C463152B99F8003A4562 /* AWSHelper.h */,
+				9F64C464152B99F8003A4562 /* AWSHelper.m */,
+				9FD00875152A4C1B0072754C /* NSString+MyExtensions.h */,
+				9FD00876152A4C1B0072754C /* NSString+MyExtensions.m */,
+				9FD00872152A48D70072754C /* NSData+MyExtensions.h */,
+				9FD00873152A48D70072754C /* NSData+MyExtensions.m */,
+				9FD00871152A47570072754C /* AWSKeys.h */,
+				9FC20B73151CFE9C00B2D949 /* AppController.h */,
+				9FC20B74151CFE9C00B2D949 /* AppController.m */,
 				9FC20B68151CFB5300B2D949 /* AppDelegate.h */,
 				9FC20B69151CFB5300B2D949 /* AppDelegate.m */,
 				9FC20B6B151CFB5300B2D949 /* MainMenu.xib */,
@@ -167,6 +193,10 @@
 			files = (
 				9FC20B63151CFB5300B2D949 /* main.m in Sources */,
 				9FC20B6A151CFB5300B2D949 /* AppDelegate.m in Sources */,
+				9FC20B75151CFE9C00B2D949 /* AppController.m in Sources */,
+				9FD00874152A48D70072754C /* NSData+MyExtensions.m in Sources */,
+				9FD00877152A4C1B0072754C /* NSString+MyExtensions.m in Sources */,
+				9F64C465152B99F8003A4562 /* AWSHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +316,7 @@
 				9FC20B72151CFB5300B2D949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
